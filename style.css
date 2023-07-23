@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(52, 186, 248);
+}
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, white, blue, black);
+    margin: 100px auto 0;
+    border-radius: 25px;
+    border: solid black 5px;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.search{
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin: 10px auto 0;
+    border-radius: 25px;
+    border: solid black 5px;
+    width: 100%;
+    background: white;
+}
+
+.search input{
+    height: 40px;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding-left: 20px;
+}
+
+.search img {
+    margin: auto;
+}
